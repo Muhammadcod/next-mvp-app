@@ -17,7 +17,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://your-cra-app.netlify.app/:splat"
+  to = "https://wld-u-rather.netlify.app//:splat"
   status = 200
   force = false
   conditions = {Path = "/*", excluded_paths = ["/", "/about", "/dashboard"]}
