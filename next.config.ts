@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/:path*',
-        destination: `https://wld-u-rather.netlify.app/:path*`,
+        destination: ` https://boderpal.netlify.app/:path*`,
         has: [
           {
             type: 'header',
