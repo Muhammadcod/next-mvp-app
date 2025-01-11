@@ -3,14 +3,6 @@
   publish = ".next"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[[redirects]]
   from = "*"
   to = "https://boderpal.netlify.app/:splat"
   status = 200
